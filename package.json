@@ -7,7 +7,8 @@
     "build": "webpack --config webpack.config.ts",
     "start": "webpack serve --open",
     "watch": "webpack --watch",
-    "prettier": "prettier --write src/**/*.ts",
+    "lint": "npm run eslint && npm run prettier",
+    "prettier": "prettier --write src/",
     "eslint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
